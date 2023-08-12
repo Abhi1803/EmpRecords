@@ -56,7 +56,7 @@ export default function Read() {
                   {data.checkbox ? "Checked" : "Unchecked"}
                 </Table.Cell>
                 <Table.Cell>
-                  <Link to="http://localhost:3000/update">
+                  <Link to="https://emp-records.vercel.app/update">
                     <Button onClick={() => setData(data)}>Update</Button>
                   </Link>
                 </Table.Cell>
